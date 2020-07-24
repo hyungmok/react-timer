@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  --timer-border: 1px solid #000000;
+  --timer-height: 70%;
+  --timer-width: 70%;
+
+  --button-border: 3px solid #000000;
+  --button-text-size: 3em;
+}
+
+body,
+div,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  :root {
+    --timer-height: 80%;
+    --timer-width: 80%;
+  }
+}
